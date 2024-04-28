@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "./Header";
 
 // Example FAQ data - could be fetched from a backend or stored locally
 const faqData = [
@@ -28,12 +29,12 @@ function FAQItem({ faq, onClick, isActive }) {
     <div className="mb-4">
       <button
         onClick={onClick}
-        className="w-full text-left px-4 py-2 text-lg font-semibold text-white bg-blue-500 hover:bg-blue-600 rounded-t"
+        className="w-full text-left px-4 py-2 text-lg font-semibold text-tertiary bg-secondary rounded-t"
       >
         {faq.question}
       </button>
       {isActive && (
-        <div className="p-4 bg-white border border-t-0 border-blue-500 rounded-b">
+        <div className="p-4 bg-primary border border-t-0 border-secondary rounded-b">
           <p>{faq.answer}</p>
         </div>
       )}
@@ -49,19 +50,22 @@ function FAQ() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-center mb-6">
-        Frequently Asked Questions
-      </h1>
-      <div>
-        {faqData.map((faq) => (
-          <FAQItem
-            key={faq.id}
-            faq={faq}
-            onClick={() => toggleFAQ(faq.id)}
-            isActive={activeId === faq.id}
-          />
-        ))}
+    <div className="h-screen bg-primary">
+      <Header></Header>
+      <div className="container mx-auto px-4 py-8 font-text text-tertiary">
+        <h1 className="text-2xl font-bold text-center mb-6 ">
+          Frequently Asked Questions
+        </h1>
+        <div>
+          {faqData.map((faq) => (
+            <FAQItem
+              key={faq.id}
+              faq={faq}
+              onClick={() => toggleFAQ(faq.id)}
+              isActive={activeId === faq.id}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 // Example data - you might fetch this from a server or manage it via state/context
 const chapters = [
@@ -10,23 +11,22 @@ const chapters = [
 
 function TableOfContents() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-center mb-6">Table of Contents</h1>
-      <ul className="space-y-2">
-        {chapters.map((chapter) => (
-          <li
-            key={chapter.id}
-            className="bg-gray-100 p-4 rounded shadow hover:bg-gray-200"
-          >
-            <a
-              href={chapter.link}
-              className="text-lg text-blue-600 hover:text-blue-800"
-            >
-              {chapter.title}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <div className="bg-primary h-screen">
+      <Header></Header>
+      <div className="container mx-auto px-4 py-8 font-text">
+        <h1 className="text-2xl font-bold text-center mb-6 text-tertiary">
+          Table of Contents
+        </h1>
+        <ul className="space-y-2">
+          {chapters.map((chapter) => (
+            <li key={chapter.id} className="bg-secondary p-4 rounded shadow">
+              <a href={chapter.link} className="text-lg text-tertiary">
+                {chapter.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }

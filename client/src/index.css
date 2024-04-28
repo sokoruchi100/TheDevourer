@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'MedusaGothic';
+    src: url('/public/fonts/MedusaGothicD.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('/public/fonts/GothamBook.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

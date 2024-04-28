@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 
 // Example extras data - could be fetched from a backend or stored locally
 const extras = [
@@ -28,10 +29,10 @@ const extras = [
 
 function ExtraItem({ extra }) {
   return (
-    <div className="p-4 bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+    <div className="p-4 bg-secondary rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
       <h2 className="text-xl font-semibold mb-2">{extra.title}</h2>
       <p className="mb-4">{extra.description}</p>
-      <a href={extra.link} className="text-blue-500 hover:text-blue-700">
+      <a href={extra.link} className="text-tertiary ">
         Learn More
       </a>
     </div>
@@ -40,12 +41,15 @@ function ExtraItem({ extra }) {
 
 function Extras() {
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-2xl font-bold text-center mb-6">Extra Material</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {extras.map((extra) => (
-          <ExtraItem key={extra.id} extra={extra} />
-        ))}
+    <div className="h-screen bg-primary">
+      <Header></Header>
+      <div className="container mx-auto px-4 py-8 font-text text-tertiary">
+        <h1 className="text-2xl font-bold text-center mb-6">Extra Material</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {extras.map((extra) => (
+            <ExtraItem key={extra.id} extra={extra} />
+          ))}
+        </div>
       </div>
     </div>
   );
