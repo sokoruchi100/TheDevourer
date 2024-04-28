@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "./Header";
 
-// Example data - you might fetch this from a server or manage it via state/context
+// Example data
 const chapters = [
-  { id: 1, title: "Chapter 1: Tractor", link: "/chapter1" },
+  { id: 1, title: "Chapter 1: Tractor", link: "/chapter/1/Tractor" },
   // Add more chapters as needed
 ];
 
 function TableOfContents() {
   return (
     <div className="bg-primary h-screen">
-      <Header></Header>
+      <Header />
       <div className="container mx-auto px-4 py-8 font-text">
         <h1 className="text-2xl font-bold text-center mb-6 text-tertiary">
           Table of Contents
