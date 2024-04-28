@@ -3,9 +3,11 @@ import Header from "./Header";
 
 // Example gallery data - you might want to fetch this from a backend or manage it via state/context
 const artworks = [
-  { id: 1, title: "John in the Shadows", url: "path-to-artwork1.jpg" },
-  { id: 2, title: "Jane's Secret Power", url: "path-to-artwork2.jpg" },
-  { id: 3, title: "The Final Stand", url: "path-to-artwork3.jpg" },
+  {
+    id: 1,
+    title: "This is where I would put fanart",
+    url: "path-to-artwork1.jpg",
+  },
   // Add more artworks as needed
 ];
 

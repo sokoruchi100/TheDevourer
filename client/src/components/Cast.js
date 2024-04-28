@@ -5,24 +5,24 @@ import Header from "./Header";
 const characters = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Lily Carmine",
     description:
-      "The protagonist of the story, a brave and curious explorer of unknown realms.",
-    image: "path-to-image-of-john.jpg",
+      "Lily is the central character of 'Pursuing Flesh,' a young woman grappling with newly awakened, grotesque supernatural powers following a mysterious tractor accident. Initially living a quiet life on her family's farm, her world is turned upside down by her terrifying abilities. She is introspective and conflicted, torn between her growing powers and the sinister influence of an alien entity that claims to guide her. As she delves deeper into the unknown, Lily's journey becomes one of self-discovery and survival, pushing her towards an inevitable transformation that challenges her humanity.",
+    image: "images/Lily.png",
   },
   {
     id: 2,
-    name: "Jane Smith",
+    name: "Oliver Asturias",
     description:
-      "A mysterious figure with powerful abilities and a cryptic past.",
-    image: "path-to-image-of-jane.jpg",
+      "Oliver is Lily's ex-boyfriend, characterized by his earnest and caring nature. Despite their breakup, he remains deeply concerned about Lily's well-being, especially as he notices changes in her behavior. Oliver represents a touchstone of normalcy and past affection in Lily's increasingly chaotic world. He is loyal and determined, often finding himself trying to protect or help Lily despite the complexity of their past relationship and her burgeoning powers. His struggle is marked by confusion and a desperate desire to reconnect with Lily, even as the world around them grows more dangerous.",
+    image: "images/Oliver.png",
   },
   {
     id: 3,
-    name: "Maxwell Irving",
+    name: "Ella Bancroft",
     description:
-      "A wise mentor to John, providing guidance and ancient knowledge.",
-    image: "path-to-image-of-maxwell.jpg",
+      "Ella, a childhood friend of Lily's, returns to town with secrets and a hidden agenda. Working for a mysterious organization, she projects a facade of success and independence, owning a remote job and a new house. However, her true motives are shadowed by her involvement with covert operations that monitor and manipulate those with supernatural abilities. Ella is complex, walking a fine line between old loyalties and her duties, which often puts her at odds with her own moral compass. Her character adds layers of intrigue and betrayal to the story, as she navigates her dual roles and the eventual consequences of her actions.",
+    image: "images/Ella.png",
   },
   // Add more characters as needed
 ];

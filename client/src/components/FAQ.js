@@ -7,13 +7,13 @@ const faqData = [
     id: 1,
     question: "What is the main theme of 'Pursuing Flesh'?",
     answer:
-      "The main theme revolves around the exploration of human desires and fears, portrayed through supernatural events and character interactions.",
+      "The main theme revolves around the corruption of power. This theme is explored through Lily's transformation as she gains supernatural abilities that are both empowering and grotesque. The story delves into how these newfound powers affect Lily's sense of self and morality, highlighting the seductive allure of power and its potential to corrupt those who possess it.",
   },
   {
     id: 2,
     question: "How often are new chapters released?",
     answer:
-      "New chapters are released every Monday. Stay tuned for weekly updates!",
+      "New chapters are released the first day of every month. Stay tuned for monthly updates!",
   },
   {
     id: 3,

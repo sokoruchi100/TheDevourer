@@ -3,9 +3,7 @@ import Header from "./Header";
 
 // Example data - you might fetch this from a server or manage it via state/context
 const chapters = [
-  { id: 1, title: "Chapter 1: The Awakening", link: "/chapter1" },
-  { id: 2, title: "Chapter 2: Into the Abyss", link: "/chapter2" },
-  { id: 3, title: "Chapter 3: Echoes of the Past", link: "/chapter3" },
+  { id: 1, title: "Chapter 1: Tractor", link: "/chapter1" },
   // Add more chapters as needed
 ];
 
