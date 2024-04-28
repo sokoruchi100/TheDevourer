@@ -1,13 +1,19 @@
 const express = require("express");
+const path = require("path");
 const app = express();
+const port = 3000;
 const cors = require("cors");
 
 app.use(cors());
 
-app.get("/", (req, res) => {
-  res.send("Yay it works");
+// Serve Angular app
+app.use(express.static(path.join(__dirname, "../client/build")));
+
+// Handle all other routes
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build/index.html"));
 });
 
-app.listen(5000, () => {
-  console.log("server listening on port 5000");
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
