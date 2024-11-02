@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TheDevourer/static/css/main.020c2063.css",
-    "main.js": "/TheDevourer/static/js/main.d124d488.js",
+    "main.js": "/TheDevourer/static/js/main.d67c96f5.js",
     "static/media/GothamBook.ttf": "/TheDevourer/static/media/GothamBook.58fb9151c57e59668f17.ttf",
     "static/media/MedusaGothicD.otf": "/TheDevourer/static/media/MedusaGothicD.9db424b3199c20293880.otf",
     "index.html": "/TheDevourer/index.html",
     "main.020c2063.css.map": "/TheDevourer/static/css/main.020c2063.css.map",
-    "main.d124d488.js.map": "/TheDevourer/static/js/main.d124d488.js.map"
+    "main.d67c96f5.js.map": "/TheDevourer/static/js/main.d67c96f5.js.map"
   },
   "entrypoints": [
     "static/css/main.020c2063.css",
-    "static/js/main.d124d488.js"
+    "static/js/main.d67c96f5.js"
   ]
 }
