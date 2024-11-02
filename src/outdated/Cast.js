@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 
 // Example character data - you might want to fetch this from a backend or manage it via state/context
 const characters = [

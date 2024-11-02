@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 
 // Example FAQ data - could be fetched from a backend or stored locally
 const faqData = [

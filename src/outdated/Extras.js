@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "../components/Header";
 
 // Example extras data - could be fetched from a backend or stored locally
 const extras = [

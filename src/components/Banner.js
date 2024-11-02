@@ -9,7 +9,7 @@ function Banner() {
       }}
     >
       <div className="bg-secondary bg-opacity-50 p-4 text-8xl font-title">
-        <h2>Pursuing Flesh</h2>
+        <h2>The Devourer</h2>
       </div>
     </div>
   );
