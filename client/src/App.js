@@ -7,7 +7,7 @@ import Chapter from "./components/Chapter";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/TheDevourer">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/toc" element={<TableOfContents />} />
