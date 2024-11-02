@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
 // Example data
 const chapters = [
   {
     id: 1,
     title: "Chapter 1",
-    link: "/TheDevourer/chapter/1",
+    link: "/chapter/1",
   },
   // Add more chapters as needed
 ];
@@ -22,9 +23,9 @@ function TableOfContents() {
         <ul className="space-y-2">
           {chapters.map((chapter) => (
             <li key={chapter.id} className="bg-secondary p-4 rounded shadow">
-              <a href={chapter.link} className="text-lg text-tertiary">
+              <Link to={chapter.link} className="text-lg text-tertiary">
                 {chapter.title}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>
