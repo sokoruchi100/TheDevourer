@@ -1,6 +1,6 @@
 # The Devourer
 
-**The world’s a cruel place. In the end, we’re all just meat.**
+**“The world’s a cruel place. In the end, we’re all just meat.”**
 
 Leo Winfield has always felt like something was missing. When snow falls over Los Angeles—a rare, almost haunting scene—it pulls him back to the day his sister was killed by a monstrous fiend. Now, with survivor's guilt gnawing at his will and a hardened indifference chilling his every step, Leo’s only goal is to survive in a city as brutal and uncaring as the creatures lurking within it. But one night, everything changes. Returning home, he finds his family slaughtered by a fiend, and as he tries to fight back, the unthinkable happens: **he becomes the monster that kills him**.
 
