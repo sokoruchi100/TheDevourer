@@ -13,7 +13,9 @@ function Chapter() {
     const loadChapterContent = async () => {
       try {
         setIsLoading(true);
-        const response = await fetch(`/chapters/chapter${chapterId}.txt`);
+        const response = await fetch(
+          `/TheDevourer/chapters/chapter${chapterId}.txt`
+        );
         if (!response.ok) {
           throw new Error(`Failed to fetch chapter: ${response.status}`);
         }
@@ -38,7 +40,7 @@ function Chapter() {
       <Header></Header>
       <div className="container mx-auto px-4 py-8 text-tertiary font-text flex flex-col">
         <h1 className="text-5xl font-bold text-center mb-4">
-          Chapter {chapterId}: {decodeURIComponent(chapterTitle)}
+          Chapter {chapterId}
         </h1>
         <div
           className="mt-4 text-lg w-3/6 text-justify self-center"

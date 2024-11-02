@@ -3,7 +3,11 @@ import Header from "./Header";
 
 // Example data
 const chapters = [
-  { id: 1, title: "Chapter 1: Tractor", link: "/chapter/1/Tractor" },
+  {
+    id: 1,
+    title: "Chapter 1",
+    link: "/TheDevourer/chapter/1",
+  },
   // Add more chapters as needed
 ];
 
